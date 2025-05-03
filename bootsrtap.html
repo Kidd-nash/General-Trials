@@ -591,16 +591,20 @@
     <div class="container mt-3">
       <h2>Simple Collapsible</h2>
       <p>Click on the button to toggle between showing and hiding content.</p>
-      <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Simple collapsible</button>
+      <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Simple
+        collapsible</button>
       <div id="demo" class="collapse">
-        The .collapse class indicates a collapsible element (a div in our example); this is the content that will be shown or hidden with a click of a button.
-        To control (show/hide) the collapsible content, add the data-bs-toggle="collapse" attribute to an a or a button element. Then add 
+        The .collapse class indicates a collapsible element (a div in our example); this is the content that will be
+        shown or hidden with a click of a button.
+        To control (show/hide) the collapsible content, add the data-bs-toggle="collapse" attribute to an a or a button
+        element. Then add
         the data-bs-target="#id" attribute to connect the button with the collapsible content (div id="demo").
       </div>
     </div>
     <div class="container mt-3">
       <h2>Accordion Example</h2>
-      <p><strong>Note:</strong> The <strong>data-bs-parent</strong> attribute makes sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>
+      <p><strong>Note:</strong> The <strong>data-bs-parent</strong> attribute makes sure that all collapsible elements
+        under the specified parent will be closed when one of the collapsible item is shown.</p>
       <div id="accordion">
         <div class="card">
           <div class="card-header">
@@ -610,19 +614,23 @@
           </div>
           <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
             <div class="card-body">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.
             </div>
           </div>
         </div>
         <div class="card">
           <div class="card-header">
             <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
-            Collapsible Group Item #2
-          </a>
+              Collapsible Group Item #2
+            </a>
           </div>
           <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
             <div class="card-body">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.
             </div>
           </div>
         </div>
@@ -634,7 +642,9 @@
           </div>
           <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
             <div class="card-body">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.
             </div>
           </div>
         </div>
@@ -711,36 +721,55 @@
       </li>
     </ul>
     <p>To justify tabs/pills (equal width), use the .nav-justified class:</p>
-  <ul class="nav nav-pills nav-justified">
-    <li class="nav-item">
-      <a class="nav-link active" href="#">Active</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link disabled" href="#">Disabled</a>
-    </li>
-  </ul><br>
+    <ul class="nav nav-pills nav-justified">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul><br>
 
-  <p>Justified tabs:</p>
-  <ul class="nav nav-tabs nav-justified">
-    <li class="nav-item">
-      <a class="nav-link active" href="#">Active</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link disabled" href="#">Disabled</a>
-    </li>
-  </ul>
+    <p>Justified tabs:</p>
+    <ul class="nav nav-tabs nav-justified">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Active</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Dropdown</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Link 1</a></li>
+          <li><a class="dropdown-item" href="#">Link 2</a></li>
+          <li><a class="dropdown-item" href="#">Link 3</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
   </div>
   <form class="container p-5 my-5 bg-dark text-white">
     <label>
